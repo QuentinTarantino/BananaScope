@@ -2,10 +2,15 @@
 
 
 a dmenu selector for multiple gamescope resolutions currently including:
+
 3840x2160 (4k)
+
 3440x1440 (UltraWide 1440p)
+
 1920x1080 (1080p)
+
 1280x720p (720o)
+
 
 can be used via the file itself but is best used when binded for quick use,
 
