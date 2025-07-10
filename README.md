@@ -9,7 +9,7 @@ a dmenu selector for multiple gamescope resolutions currently including:
 
 1920x1080 (1080p)
 
-1280x720p (720o)
+1280x720p (720p)
 
 
 can be used via the file itself but is best used when binded for quick use,
