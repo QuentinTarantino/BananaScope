@@ -1,4 +1,6 @@
 # dmenu-Gamescope-Resolution-Selector
+
+
 a dmenu selector for multiple gamescope resolutions currently including:
 3840x2160 (4k)
 3440x1440 (UltraWide 1440p)
@@ -6,5 +8,8 @@ a dmenu selector for multiple gamescope resolutions currently including:
 1280x720p (720o)
 
 can be used via the file itself but is best used when binded for quick use,
+
 Created this as I didn't want to to constantly have to change and retype the gamescope parameters when going from my monitor (3440x1440) to my TV (4k)
-not exactly complex but im not a great coder, anymore much more talented than me is free to come and improve the code themselves !
+
+Not exactly complex but im not a great coder, anymore much more talented than me is free to come and improve the code themselves !
+
