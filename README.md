@@ -1,4 +1,4 @@
-# dmenu-Gamescope-Resolution-Selector
+# BananaScope
 
 > [!Note]
 > This script is designed to be binded to a key within your window manager.
