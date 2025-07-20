@@ -1,7 +1,17 @@
 #!/bin/bash
 
-# dmenu options
-CHOICE=$(printf "4k HDR\n4k Ultrawide\n4k\n1440p HDR\n1440p Ultrawide\n1440p\n1080p Ultrawide\n1080p\n720p\n8k (Not Recommended/unstable)" | rofi -dmenu -p "Choose resolution:")
+# Check for rofi or dmenu
+if command -v dmenu &> /dev/null; then
+    MENU="dmenu -p"
+elif command -v rofi &> /dev/null; then
+    MENU="rofi -dmenu -p"
+else
+    echo "Neither rofi nor dmenu is installed." >&2
+    notify-send "Neither rofi nor dmenu is installed." >&2
+    exit 1
+fi
+
+CHOICE=$(printf "4k HDR\n4k Ultrawide\n4k\n1440p HDR\n1440p Ultrawide\n1440p\n1080p Ultrawide\n1080p\n720p\n8k (Not Recommended/unstable)" | $MENU "Choose resolution:")
 
 KEY_DELAY="0"
 KEY_HOLD="0"
@@ -36,7 +46,7 @@ case "$CHOICE" in
   "720p")
     TEXT="MANGOHUD=1 gamescope -w 1280 -W 1280 -h 720 -H 720 --force-grab-cursor -- %command%"
     ;;
-"8k (Not Recommended)")
+  "8k (Not Recommended)")
     TEXT="MANGOHUD=1 gamescope -w 7680 -W 7680 -h 4320 -H 4320 --force-grab-cursor -- %command%"
     ;;
   *)
