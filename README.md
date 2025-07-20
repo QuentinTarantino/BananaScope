@@ -8,11 +8,13 @@ Not exactly complex but im not a great coder, anymore much more talented than me
 
 ## Resolution list
 * 7680x4320 (8k (unstable/not suggested))
+* 5120×2160 (4k Ultrawide)
 * 3840x2160 (4k HDR)
 * 3840x2160 (4k)
 * 3440x1440 (UltraWide 1440p)
 * 2560x1440 (1440p HDR)
 * 2560x1440 (1440p)
+* 2160x1080 (Ultrawide 1080p)
 * 1920x1080 (1080p)
 * 1280x720p (720p)
 
