@@ -7,6 +7,7 @@ Created this as I didn't want to to constantly have to change and retype the gam
 Not exactly complex but im not a great coder, anymore much more talented than me is free to come and improve the code themselves!
 
 ## Resolution list
+* 7680x4320 (8k (unstable/not suggested))
 * 3840x2160 (4k HDR)
 * 3840x2160 (4k)
 * 3440x1440 (UltraWide 1440p)
