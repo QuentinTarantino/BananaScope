@@ -17,9 +17,9 @@ Not exactly complex but im not a great coder, anymore much more talented than me
 * 1280x720p (720p)
 
 > [!WARNING]  
-> HDR is an untested work in progress, so it may not work as intended on your device. Please refer to the Gamescope section of the Arch Linux wiki for more info.
+> HDR is an untested work in progress, so it may not work as intended on your device. Please refer to the Gamescope section of the [Arch Linux wiki](https://wiki.archlinux.org/title/Gamescope) for more info.
 
 ## Dependencies
-* dmenu/rofi
+* [dmenu](https://tools.suckless.org/dmenu/)/[rofi](https://github.com/davatorium/rofi)
 * [gamescope](https://github.com/ValveSoftware/gamescope)
 * [ydotool](https://github.com/ReimuNotMoe/ydotool)
