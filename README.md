@@ -3,9 +3,15 @@
 
 a dmenu selector for multiple gamescope resolutions currently including:
 
+3840x2160 (4k HDR)
+
 3840x2160 (4k)
 
 3440x1440 (UltraWide 1440p)
+
+2560x1440 (1440p HDR)
+
+2560x1440 (1440p)
 
 1920x1080 (1080p)
 
