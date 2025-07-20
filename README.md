@@ -1,5 +1,7 @@
 # BananaScope
 
+![Example of the script changing the users resolution](assets/example.gif)
+
 > [!Note]
 > This script is designed to be binded to a key within your window manager.
 
