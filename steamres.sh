@@ -6,8 +6,8 @@ if command -v dmenu &> /dev/null; then
 elif command -v rofi &> /dev/null; then
     MENU="rofi -dmenu -p"
 else
-    echo "Neither rofi nor dmenu is installed." >&2
-    notify-send "Neither rofi nor dmenu is installed." >&2
+    echo "Neither rofi nor dmenu is installed, please install one to use the application" >&2
+    notify-send "Neither rofi nor dmenu is installed, please install one to use the application" >&2
     exit 1
 fi
 
