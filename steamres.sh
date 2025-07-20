@@ -22,7 +22,7 @@ case "$CHOICE" in
   "4k HDR")
     TEXT="MANGOHUD=1 gamescope -w 3840 -W 3840 -h 2160 -H 2160 --force-grab-cursor --hdr-enabled --hdr-sdr-content-nits $HDR_NITS --hdr-debug-force-output -- %command%"
     ;;
-  "4k Widescreen")
+  "4k Ultrawide")
     TEXT="MANGOHUD=1 gamescope -w 5160 -W 5160 -h 2160 -H 2160 --force-grab-cursor --force-grab-cursor -- %command%"
     ;;
   "4k")
@@ -31,7 +31,7 @@ case "$CHOICE" in
   "1440p HDR")
     TEXT="MANGOHUD=1 gamescope -w 2560 -W 2560 -h 1440 -H 1440 --force-grab-cursor --hdr-enabled --hdr-sdr-content-nits $HDR_NITS --hdr-debug-force-output -- %command%"
     ;;
-  "1440p Widescreen")
+  "1440p Ultrawide")
     TEXT="MANGOHUD=1 gamescope -w 3440 -W 3440 -h 1440 -H 1440 --force-grab-cursor -- %command%"
     ;;
   "1440p")
@@ -46,7 +46,7 @@ case "$CHOICE" in
   "720p")
     TEXT="MANGOHUD=1 gamescope -w 1280 -W 1280 -h 720 -H 720 --force-grab-cursor -- %command%"
     ;;
-  "8k (Not Recommended)")
+  "8k (Not Recommended/unstable)")
     TEXT="MANGOHUD=1 gamescope -w 7680 -W 7680 -h 4320 -H 4320 --force-grab-cursor -- %command%"
     ;;
   *)
