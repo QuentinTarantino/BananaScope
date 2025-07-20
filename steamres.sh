@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # dmenu options
-CHOICE=$(printf "4k HDR\n4k\n1440p HDR\n1440p Widescreen\n1440p\n1080p\n720p" | rofi -dmenu -p "Choose resolution:")
+CHOICE=$(printf "4k HDR\n4k\n1440p HDR\n1440p Widescreen\n1440p\n1080p\n720p\n8k (Not Recommended)" | rofi -dmenu -p "Choose resolution:")
 
 KEY_DELAY="0"
 KEY_HOLD="0"
@@ -29,6 +29,9 @@ case "$CHOICE" in
     ;;
   "720p")
     TEXT="MANGOHUD=1 gamescope -w 1280 -W 1280 -h 720 -H 720 --force-grab-cursor -- %command%"
+    ;;
+"8k (Not Recommended)")
+    TEXT="MANGOHUD=1 gamescope -w 7680 -W 7680 -h 4320 -H 4320 --force-grab-cursor -- %command%"
     ;;
   *)
     exit 1
