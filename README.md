@@ -5,8 +5,8 @@
 > [!Note]
 > This script is designed to be binded to a key within your window manager.
 
-Created this as I didn't want to to constantly have to change and retype the gamescope parameters when going from my monitor (3440x1440) to my TV (4k)
-Not exactly complex but im not a great coder, anymore much more talented than me is free to come and improve the code themselves!
+Launch games with BananaScope, software that uses Gamescope to run games at various resolutions and HDR settings via rofi/dmenu interface. 
+Supports [MangoHud](https://github.com/flightlessmango/MangoHud) ultrawide (21:9) resolutions.
 
 ## Resolution list
 * 7680x4320 (8k (unstable/not suggested))
@@ -27,3 +27,9 @@ Not exactly complex but im not a great coder, anymore much more talented than me
 * [dmenu](https://tools.suckless.org/dmenu/)/[rofi](https://github.com/davatorium/rofi)
 * [gamescope](https://github.com/ValveSoftware/gamescope)
 * [ydotool](https://github.com/ReimuNotMoe/ydotool)
+
+ ## In-progess features:
+ * options menu:
+   * Mangohud toggle
+   * HDR customisation
+   * other general launch options
