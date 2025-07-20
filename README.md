@@ -6,6 +6,7 @@
 > This script is designed to be binded to a key within your window manager.
 
 Launch games with BananaScope, software that uses Gamescope to run games at various resolutions and HDR settings via rofi/dmenu interface. 
+
 Supports [MangoHud](https://github.com/flightlessmango/MangoHud) and ultrawide (21:9) resolutions.
 
 ## Resolution list
