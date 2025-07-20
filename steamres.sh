@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # dmenu options
-CHOICE=$(printf "4k HDR\n4k Widescreen\n4k\n1440p HDR\n1440p Widescreen\n1440p\n1080p Widescreen\n1080p\n720p\n8k (Not Recommended)" | rofi -dmenu -p "Choose resolution:")
+CHOICE=$(printf "4k HDR\n4k Ultrawide\n4k\n1440p HDR\n1440p Ultrawide\n1440p\n1080p Ultrawide\n1080p\n720p\n8k (Not Recommended/unstable)" | rofi -dmenu -p "Choose resolution:")
 
 KEY_DELAY="0"
 KEY_HOLD="0"
